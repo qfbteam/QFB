@@ -2515,107 +2515,107 @@ local Window = OrionLib:MakeWindow({Name = "QFB|Blox Fruit", HidePremium = false
 OrionLib:MakeNotification({
 	Name = "QFB Hub",
 	Content = "Choose Teams Bro?",
-	Image = "rbxassetid://119980140458596",
+	Image = "",
 	Time = 7
 })
 
 OrionLib:MakeNotification({
 	Name = "QFB Hub",
 	Content = "QFB Hub",
-	Image = "rbxassetid://119980140458596",
+	Image = "",
 	Time = 25
 })
 
 OrionLib:MakeNotification({
     Name = "QFB Hub",
     Content = "Please Wait loading script...,Do not enable any function",
-    Image = "rbxassetid://119980140458596",
+    Image = "",
     Time = 5
 })
 
 -------------Tab-----------------------
 
 local W = Window:MakeTab({
-    Name = "Welcome",
-    Icon = "rbxassetid://119980140458596",
+    Name = "+Bem-Vindo",
+    Icon = "",
     PremiumOnly = false
 })
 
 local M = Window:MakeTab({
-    Name = "General",
-    Icon = "rbxassetid://119980140458596",
+    Name = "Geral",
+    Icon = "",
     PremiumOnly = false
 })
 
 local ST = Window:MakeTab({
-    Name = "Setting",
-    Icon = "rbxassetid://119980140458596",
+    Name = "Config",
+    Icon = "",
     PremiumOnly = false
 })
 
 local IQ = Window:MakeTab({
     Name = "Item & Quest",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "",
     PremiumOnly = false
 })
 
 local S = Window:MakeTab({
     Name = "Stats",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "",
     PremiumOnly = false
 })
 
 local E = Window:MakeTab({
     Name = "ESP",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "",
     PremiumOnly = false
 })
 
 local RA = Window:MakeTab({
     Name = "Raid",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "",
     PremiumOnly = false
 })
 
 local LC = Window:MakeTab({
     Name = "Local Players",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "",
     PremiumOnly = false
 })
 
 local Wld = Window:MakeTab({
     Name = "World Teleport",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "",
     PremiumOnly = false
 })
 
 local SV = Window:MakeTab({
     Name = "Status Sever",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "",
     PremiumOnly = false
 })
 
 local D = Window:MakeTab({
     Name = "Devil Fruit",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "",
     PremiumOnly = false
 })
 
 local R = Window:MakeTab({
     Name = "Race V4",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "",
     PremiumOnly = false
 })
 
 local SH = Window:MakeTab({
     Name = "Shop",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "",
     PremiumOnly = false
 })
 
 local C = Window:MakeTab({
     Name = "Misc",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "",
     PremiumOnly = false
 })
 
@@ -8339,13 +8339,13 @@ pcall(function()
                 OrionLib:MakeNotification({
                     Name = "Sla Hub(Noitification)",
                     Content = "[EN] : Please cancel the farrm level quest (if any)",
-                    Image = "rbxassetid://119980140458596",
+                    Image = "",
                     Time = 9
                 })
                 OrionLib:MakeNotification({
                     Name = "Sla Hub(Noitification)",
                     Content = "[VN] : Làm ơn hủy nhiệm vụ farrm level(nếu có)",
-                    Image = "rbxassetid://119980140458596",
+                    Image = "",
                     Time = 9
                 })
             end
@@ -8663,7 +8663,7 @@ spawn(function()
             OrionLib:MakeNotification({
                 Name = "Sla Hub",
                 Content = "You not have beli or fragment!",
-                Image = "rbxassetid://119980140458596",
+                Image = "",
                 Time = 5
             })
             end
@@ -11285,7 +11285,7 @@ spawn(function()
                 OrionLib:MakeNotification({
                     Name = "QFB",
                     Content = "Desligue Hop moon finder",
-                    Image = "rbxassetid://119980140458596",
+                    Image = "",
                     Time = 5
                 })
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
@@ -11293,7 +11293,7 @@ spawn(function()
                 OrionLib:MakeNotification({
                     Name = "QFB",
                     Content = "Hop Server",
-                    Image = "rbxassetid://119980140458596",
+                    Image = "",
                     Time = 5
                 })
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
@@ -11301,7 +11301,7 @@ spawn(function()
                 OrionLib:MakeNotification({
                     Name = "QFB",
                     Content = "Hop Server",
-                    Image = "rbxassetid://119980140458596",
+                    Image = "",
                     Time = 5
                 })
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
@@ -11309,7 +11309,7 @@ spawn(function()
                 OrionLib:MakeNotification({
                     Name = "QFB",
                     Content = "Hop Server",
-                    Image = "rbxassetid://119980140458596",
+                    Image = "",
                     Time = 5
                 })
             else
@@ -11322,7 +11322,7 @@ spawn(function()
 OrionLib:MakeNotification({
         Name = "QFB",
         Content = "Carregando script, Agora você pode ativar as funçoes",
-        Image = "rbxassetid://119980140458596",
+        Image = "",
         Time = 5
     })
 
@@ -11365,6 +11365,6 @@ OrionLib:Init()
 OrionLib:MakeNotification({
     Name = "QFB Hub",
     Content = "Configuração sendo carregada!",
-    Image = "rbxassetid://119980140458596",
+    Image = "",
     Time = 5
 })
